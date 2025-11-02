@@ -1,0 +1,39 @@
+body {
+			color: rgb(75, 125, 103);
+			font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			font-size:xx-large;
+			text-align: center;
+			background-color: rgb(219, 216, 167);
+		}
+		h1 {
+font-size: 64px;
+				}
+				.contacts {
+					background-color: #817c15;
+					padding: 10px 20px;
+					display: flex;
+  justify-content: center; 
+  align-items: center; 
+					margin-bottom: 20px;
+					border-radius: 15px;
+					box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+					display: flex;
+					gap: 20px;
+					align-items: center; 
+				}
+				.contacts a {
+					color: white;
+										text-decoration: dotted;
+					font-weight: bold;
+					transition: background-color 0.3s;
+				}
+				.contacts a:hover {	
+					background-color: #00cc25;
+				}
+				.contactls {
+					display: flex;
+					text-align: left;
+  justify-content: left; 
+  align-items: left; 
+				}
+			
